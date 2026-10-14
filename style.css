@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #31252C; /* Cor de fundo do Figma */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 650px;
+    padding: 40px;
+    background-color: #31252C;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.fields-column {
+    flex: 1;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    width: 140px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+input {
+    flex: 1;
+    height: 35px;
+    background-color: #D9D9D9; /* Fundo cinza das caixas */
+    border: 3px solid #761C7B; /* Borda exata solicitada */
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+}
+
+.button-column {
+    display: flex;
+    align-items: center;
+}
+
+button, .btn-salvar {
+    background-color: #3C6314; /* Verde exato do botão de salvar do Figma */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+button:hover, .btn-salvar:hover {
+    background-color: #335510;
+}
+
+.btn-home {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3C6314;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.btn-home:hover {
+    background-color: #335510;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
